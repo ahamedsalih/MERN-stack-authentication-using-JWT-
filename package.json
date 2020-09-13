@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://ahamedsalih.github.io/welcomerjs/",
+  "scripts": {
+    "start": "nodemon app.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
+    "google-auth-library": "^6.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.3",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
